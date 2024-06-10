@@ -38,12 +38,17 @@ section::after {
     width: 100%;
     height: 3%;
     text-align: right;
-    content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total) "　";
+    white-space: pre-wrap;
+    content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total)"   ";
     background: linear-gradient(90deg, #7dcfff, #7aa2f7, #bb9af7);
 }
 
+footer::before {
+    white-space: pre-wrap;
+    content: "   ";
+}
+
 footer {
-    padding-left: 10px;
     padding-bottom: 2px;
     font-size: 20px;
     position: absolute;
