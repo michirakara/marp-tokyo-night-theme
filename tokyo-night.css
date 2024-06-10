@@ -1,6 +1,7 @@
+/* @theme tokyo-night */
+
 @charset "UTF-8";
 
-/* @theme tokyo-night */
 @import 'default';
 
 
@@ -10,11 +11,6 @@ section {
     background-color: #24283b;
     color: #9aa5ce;
     border-color: #24283b;
-    --color-background: white;
-    --color-background-stripe: rgba(0, 57, 129, 0.1);
-    --color-foreground: #003981;
-    --color-dimmed: #33619a;
-    --color-highlight: #0288d1;
 }
 
 section::before {
@@ -26,7 +22,7 @@ section::before {
     width: 100px;
     height: 100px;
     background-color: #7dcfff;
-    /*background: linear-gradient(135deg, #7dcfff 0%, #7aa2f7 35%, #bb9af7 70%);*/
+    background: linear-gradient(90deg, #7dcfff 0%, #7aa2f7 50%);
 }
 
 section::after {
@@ -59,8 +55,9 @@ footer {
 }
 
 header {
-    margin-left: 40px;
+    left: 78.5px;
     color: #565f89;
+    font-size: 20px;
 }
 
 h1,
