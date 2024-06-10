@@ -99,6 +99,18 @@ pre {
     border-color: #24283b;
 }
 
+th {
+    background-color: #414868;
+    color: #c0caf5;
+    border: 1px solid #9aa5ce !important;
+}
+
+td {
+    border: 1px solid #9aa5ce !important;
+    color: #9aa5ce;
+    background-color: #24283b;
+}
+
 
 /*!
   Theme: Tokyo-night-Dark
