@@ -1,5 +1,7 @@
 # marp-tokyo-night-theme
 Tokyo Night theme for Marp
+Marp: (https://github.com/marp-team/marp)
+Tokyo Night: (https://github.com/enkia/tokyo-night-vscode-theme)
 
 # Usage
 add `https://raw.githubusercontent.com/michirakara/marp-tokyo-night-theme/main/tokyo-night.css` to Marp: Themes
